@@ -6,9 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-
     <?php 
-
     $nome = $_POST["nome"];
     echo "Nome Completo: ", $nome,"<br>";
 
@@ -56,13 +54,6 @@
 
     $mail = $_POST["mail"];
     echo "E-mail:", $mail,"<br>";
-
-
-
-
-    
-    
-
     ?>
 </body>
 </html>
