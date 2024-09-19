@@ -22,15 +22,12 @@
 </head>
 <body>
     <?php
-        
         echo "<h1>Tabela Alternada</h1>";
         echo "<table>";
         for ($i = 1;  $i <= 10; $i++){
-
             if ($i % 2 == 0) {
                 echo "<tr style='background-color: green'><td>$i</td></tr>";
             }
-
             else {
                 echo "<tr><td>$i</td></tr>";
             } 
