@@ -7,7 +7,7 @@ $db_name = "biblioteca";
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name); 
 
-if ($conn->$connect_error) {
+if ($conn->connect_error) {
 
     die("Conexão Falhou:{$conn->connect_error}");
 }
@@ -16,3 +16,4 @@ else {
 
     echo "Parabéns!!! Deu bom na conexão!";
 }
+?>
