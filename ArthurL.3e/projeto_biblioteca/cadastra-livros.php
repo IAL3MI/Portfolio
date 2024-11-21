@@ -30,11 +30,11 @@ die(mysqli_error(mysql: $conn));
 if($query){
     echo "<center>";
     echo "Cadastro Realizado Com Sucesso!!<br>";
-    echo "<a href='pagina-inicial.html'><button title='Home page'>Voltar</button></a>";
+    echo "<a href='index.html'><button title='Home page'>Voltar</button></a>";
     echo "</center>";
 }else{
     echo "<center>";
     echo "Erro ao Cadastrar!!<br>";
-    echo "<a href='cadastrar livro.html'><button title='Home page'>Voltar</button></a>";
+    echo "<a href='cadastra-livros.html'><button title='Home page'>Voltar</button></a>";
     echo "</center>";
 }
