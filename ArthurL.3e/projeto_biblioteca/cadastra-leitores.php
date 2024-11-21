@@ -31,7 +31,7 @@ if($query){
 } else {
     echo "<center>";
     echo "Não se preocupe, você não é o problema!<br>";
-    echo "<a href='index.php'><button title ='Home Page'>Voltar</button></a>";
+    echo "<a href='index.html'><button title ='Home Page'>Voltar</button></a>";
     echo "</center>";
 }
 ?>
