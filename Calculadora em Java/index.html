@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em Java</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <h2>Seja bem vindo a calculadora feita em Java, para utiliza-la apenas preencha os espaços com os números a serem operados,
+        e logo após clicar no tipo de operação a ser feita que o resultado sairá automaticamente para você.
+    </h2>  
+    <input type="text" id="v1"><br>
+    <input type="text" id="v2"><br>
+    <ul class="operacoes">
+        <li><button type="button" onclick="Somar()">Soma</button></li>
+        <li><button type="button" onclick="Subtrair()">Subtrair</button></li>
+        <li><button type="button" onclick="Dividir()">Dividir</button></li>
+        <li><button type="button" onclick="Multiplicar()">Multiplicar</button></li>
+    </ul>
+    <p id="res">Resultado: </p>
+</body>
+</html>
