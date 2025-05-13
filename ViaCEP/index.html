@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ViaCEP Webservice</title>
+    <script src="codigos.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+ 
+    </head>
+
+    <body>
+        <header>
+          <h1>Formulário para Cadastro na Garagem</h1>
+          <p> Olá você que quer nossos serviços basta preencher nosso formulário de cadastro e ficar ligado nas novidades que vem por ai <br>
+          Lembre-se que o que o caminhão não recupera a garagem se interessa!</p>
+        </header>
+
+      <form method="get" action=".">
+        <table>
+                <td>
+                    <label>Cep:
+                    <input name="cep" type="text" id="cep" value="" size="0" maxlength="9" onblur="pesquisacep(this.value);"/> <br>
+                    <label>Rua:
+                    <input name="rua" type="text" id="rua" size="0" /></label><br />
+                    <label>Bairro:
+                    <input name="bairro" type="text" id="bairro" size="0" /></label><br />
+                </td>
+            </label>
+            <br/>
+                <td>
+                    <label>Cidade:
+                    <input name="cidade" type="text" id="cidade" size="0" /></label><br/>
+                    <label>Estado:
+                    <input name="uf" type="text" id="uf" size="0" /></label><br/>
+                    <label>IBGE:
+                    <input name="ibge" type="text" id="ibge" size="0" /></label><br/>
+                </td>
+           
+        </table>
+      </form>
+      
+      <footer>
+        A garagem agradece a sua contribuição :) <br>
+        Desenvolvedores: Ronaldo Cesar, Arthur Luís, José Marcus e João Paulo <br>
+        Série: 3° E
+      </footer>
+    </body>
+
+</html>
