@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg,#5809d8 10%, #4cbede 100%) no-repeat fixed;
+    justify-content: center;
+    align-items: center;        
+    display: flex;
+    height: 100vh;
+    font-size: 17px;
+}
+button {
+
+    cursor: pointer;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.container {
+    background-color: #5e0ee9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+.form h3 {
+    margin-bottom: 1rem;
+}
+
+.form-input-container {
+    display: flex;
+}
+
+.form input {
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+
+#dadoschuva {
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+
+#dadoschuva span {
+    margin: 0.3rem;
+
+}
+
+#descricaocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem;
+}
+
+#detalhes-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#detalhes-container #umidade {
+    border-right: 1px solid #fff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
